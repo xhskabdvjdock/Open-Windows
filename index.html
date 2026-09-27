@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open Windows</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Arabic typeface: Thamaniya first (local), IBM Plex Sans Arabic as web fallback -->
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./src/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar"></aside>
+    <div id="main">
+      <header id="topbar"></header>
+      <main id="page"></main>
+    </div>
+  </div>
+  <div id="search-overlay" class="hidden"></div>
+  <div id="dialog-root"></div>
+  <div id="toasts"></div>
+  <script type="module" src="./src/main.ts"></script>
+</body>
+</html>
